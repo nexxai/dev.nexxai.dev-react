@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 import { DotPattern } from "./Components/UI/DotPattern";
 import NavBar from "./Components/Nav/NavBar";
 import { Routes, Route, Outlet, useLocation } from "react-router-dom";
