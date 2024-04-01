@@ -10,3 +10,8 @@
   font-weight: 200 900;
   font-stretch: 75% 125%;
 }
+
+span.notObviousClassName {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
