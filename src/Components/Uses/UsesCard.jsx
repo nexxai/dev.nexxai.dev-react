@@ -5,16 +5,13 @@ import clsx from "clsx";
 UsesCard.propTypes = {
   left: PropTypes.object.isRequired,
   right: PropTypes.object.isRequired,
-  size: PropTypes.number,
 };
 
-export default function UsesCard({ left, right, size }) {
-  console.log(left);
+export default function UsesCard({ left, right }) {
   return (
     <SpotlightCard
       from="#1cd1c6"
       via="#407cff"
-      size={size}
       className="w-full max-w-2xl bg-white/10 p-8 [--radius:theme(borderRadius.2xl)]"
     >
       <div className="absolute bottom-0 left-0 right-0 inset-y-px bg-zinc-800"></div>
