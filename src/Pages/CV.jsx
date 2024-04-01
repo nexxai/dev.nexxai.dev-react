@@ -14,14 +14,15 @@ export default function CV() {
       <div className="w-2/3 xl:w-1/2 print:w-3/4">
         <section className="relative">
           <Heading />
-          <PrintOnly />
         </section>
 
         <section className="my-16 print:my-8">
           <ContactDetails />
         </section>
 
-        <section className="space-y-10">
+        <section className="print:space-y-8 space-y-10">
+          <PrintOnly />
+
           <Summary />
 
           <Skills />

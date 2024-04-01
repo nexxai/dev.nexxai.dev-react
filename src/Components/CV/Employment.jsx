@@ -34,7 +34,7 @@ export default function Employment() {
           responsibilities={[
             "Architected and guided development of Apple Pass boarding pass integration with booking system",
             "Wrote PowerShell scripts to automate the generation of APPR reports as required by the airline",
-            "ONameversaw all developer, infrastructure and business intelligence teams",
+            "Oversaw all developer, infrastructure and business intelligence teams",
             "Reported directly to senior leadership, ensuring all development goals were on track, and infrastructure was available and ready for the business",
           ]}
         />
@@ -48,7 +48,7 @@ export default function Employment() {
           responsibilities={[
             "Wrote the company's entire Terraform library of modules from scratch",
             "Built all customer deployment pipelines in Azure DevOps/YAML and PowerShell",
-            "CNamereated the team from the ground up, encouraging an open communication style and blameless feedback",
+            "Created the team from the ground up, encouraging an open communication style and blameless feedback",
             "Responsible for 5 junior and intermediate DevOps engineers",
           ]}
         />

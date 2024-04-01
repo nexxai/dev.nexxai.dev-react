@@ -156,7 +156,7 @@ export default function ContactDetails() {
           </div>
         </div>
 
-        <div className="space-y-2 md:space-y-0 flex flex-col md:flex-row md:justify-between mt-6 print:mt-2">
+        <div className="space-y-2 md:space-y-0 flex flex-col print:flex-row md:flex-row md:justify-between mt-6 print:mt-2 print:space-y-0 print:justify-between">
           <a
             target="_blank"
             href="https://linkedin.com/in/justinscottsmith"
@@ -174,14 +174,17 @@ export default function ContactDetails() {
             <span className="block transition duration-200 group-hover:text-zinc-400 print:hidden">
               LinkedIn
             </span>
-            <span className="hidden print:block">
-              linkedin.com/in/justinscottsmith
-            </span>
+            <a
+              href="https://linkedin.com/in/justinscottsmith"
+              className="hidden print:block print:underline"
+            >
+              LinkedIn
+            </a>
           </a>
           <a
             target="_blank"
             href="https://youtube.com/@nexxai_dev"
-            className="flex justify-center space-x-2 group print:hidden"
+            className="flex justify-center space-x-2 group"
           >
             <svg
               className="w-6 h-6 transition rounded-md group-hover:text-red-600"
@@ -192,9 +195,15 @@ export default function ContactDetails() {
               <path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path>
             </svg>
 
-            <span className="block transition duration-200 group-hover:text-zinc-400">
+            <span className="block print:hidden transition duration-200 group-hover:text-zinc-400">
               YouTube
             </span>
+            <a
+              href="https://youtube.com/@nexxai_dev"
+              className="print:block hidden print:underline"
+            >
+              YouTube
+            </a>
           </a>
           <a
             target="_blank"
@@ -213,7 +222,12 @@ export default function ContactDetails() {
             <span className="block transition duration-200 group-hover:text-zinc-400 print:hidden">
               GitHub
             </span>
-            <span className="hidden print:block">github.com/nexxai</span>
+            <a
+              href="https://github.com/nexxai"
+              className="hidden print:block print:underline"
+            >
+              GitHub
+            </a>
           </a>
         </div>
       </div>

@@ -44,8 +44,15 @@ export default function Project({
       <div>
         <ul>
           <li>{description}</li>
-          <li>Tech stack: {techstack}</li>
-          {integrations && <li>Integrations: {integrations}</li>}
+          <li>
+            <span className="font-semibold">Tech stack:</span> {techstack}
+          </li>
+          {integrations && (
+            <li>
+              <span className="font-semibold">Integrations:</span>{" "}
+              {integrations}
+            </li>
+          )}
         </ul>
       </div>
     </div>
