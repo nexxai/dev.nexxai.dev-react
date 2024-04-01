@@ -12,7 +12,7 @@ export default function ColorText() {
                 <span
                   className={clsx(
                     { "opacity-0": !isActive },
-                    "absolute inset-0 text-zinc-200 transition text-nowrap",
+                    "absolute inset-0 text-zinc-200 transition ",
                   )}
                 >
                   According to&nbsp;
@@ -39,7 +39,7 @@ export default function ColorText() {
                 <span
                   className={clsx(
                     { "opacity-0": !isActive },
-                    "absolute inset-0 text-zinc-200 text-right transition text-nowrap",
+                    "absolute inset-0 text-zinc-200 text-right transition ",
                   )}
                 >
                   <span>I am </span>
@@ -69,7 +69,7 @@ export default function ColorText() {
                 <span
                   className={clsx(
                     { "opacity-0": !isActive },
-                    "absolute inset-0 text-zinc-200 transition text-nowrap",
+                    "absolute inset-0 text-zinc-200 transition ",
                   )}
                 >
                   <span>so on </span>
@@ -96,7 +96,7 @@ export default function ColorText() {
                 <span
                   className={clsx(
                     { "opacity-0": !isActive },
-                    "absolute inset-0 text-zinc-200 text-right transition text-nowrap",
+                    "absolute inset-0 text-zinc-200 text-right transition ",
                   )}
                 >
                   <span className="text-transparent transition bg-gradient-to-r from-lime-300 to-green-400 bg-clip-text">
@@ -125,7 +125,7 @@ export default function ColorText() {
                 <span
                   className={clsx(
                     { "opacity-0": !isActive },
-                    "absolute inset-0 text-zinc-200 transition text-nowrap",
+                    "absolute inset-0 text-zinc-200 transition ",
                   )}
                 >
                   <span>writing a </span>
@@ -152,7 +152,7 @@ export default function ColorText() {
                 <span
                   className={clsx(
                     { "opacity-0": !isActive },
-                    "absolute inset-0 text-zinc-200 text-right transition text-nowrap",
+                    "absolute inset-0 text-zinc-200 text-right transition ",
                   )}
                 >
                   <span className="text-transparent transition bg-gradient-to-r from-pink-400 to-fuchsia-600 bg-clip-text">
@@ -181,7 +181,7 @@ export default function ColorText() {
                 <span
                   className={clsx(
                     { "opacity-0": !isActive },
-                    "absolute inset-0 text-zinc-200 transition text-nowrap",
+                    "absolute inset-0 text-zinc-200 transition ",
                   )}
                 >
                   <span>or finding my breath in </span>
