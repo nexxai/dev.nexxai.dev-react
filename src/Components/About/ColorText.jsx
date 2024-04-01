@@ -52,7 +52,7 @@ export default function ColorText() {
                 <span
                   className={clsx(
                     { "opacity-0": isActive },
-                    "absolute right-0 text-zinc-200/20 text-right transition",
+                    "absolute text-right right-0 text-zinc-200/20 text-right transition",
                   )}
                 >
                   I am allergic to free time
@@ -108,7 +108,7 @@ export default function ColorText() {
                 <span
                   className={clsx(
                     { "opacity-0": isActive },
-                    "absolute right-0 text-zinc-200/20 transition",
+                    "absolute text-right right-0  text-zinc-200/20 transition",
                   )}
                 >
                   hacking on an idea for an app,
@@ -164,7 +164,7 @@ export default function ColorText() {
                 <span
                   className={clsx(
                     { "opacity-0": isActive },
-                    "absolute right-0 text-zinc-200/20 transition",
+                    "absolute text-right right-0 text-zinc-200/20 transition",
                   )}
                 >
                   listening to a great audiobook,
