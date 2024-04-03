@@ -31,7 +31,7 @@ export default function Skills() {
               <span className="font-semibold text-zinc-100 print:text-black">
                 Testing / Static Analysis:
               </span>
-              Pest, PHPUnit, phpstan, SonarQube / SonarCloud, Rspec, Cypress,
+              Pest, PHPUnit, PHPstan, SonarQube / SonarCloud, Rspec, Cypress,
               Jest, Mocha, Chai
             </li>
             <li>
