@@ -17,8 +17,8 @@ export default function Skills() {
             <li>
               <span className="font-semibold text-zinc-100 print:text-black">
                 Languages:
-              </span>{" "}
-              PHP, JavaScript, HTML, CSS, SQL, JSON, Ruby
+              </span>
+              PHP, JavaScript, HTML, CSS, JSON, YAML, TOML, SQL, Ruby
             </li>
             <li>
               <span className="font-semibold text-zinc-100 print:text-black">
@@ -37,13 +37,13 @@ export default function Skills() {
             <li>
               <span className="font-semibold text-zinc-100 print:text-black">
                 Databases:
-              </span>{" "}
+              </span>
               MySQL / MariaDB, PostgreSQL, Redis
             </li>
             <li>
               <span className="font-semibold text-zinc-100 print:text-black">
                 CI/CD:
-              </span>{" "}
+              </span>
               GitHub Actions, Azure DevOps / Azure Pipelines, Terraform, Gitlab
               CI, Cloudflare, Postman
             </li>
