@@ -24,7 +24,7 @@ export default function Skills() {
               <span className="font-semibold text-zinc-100 print:text-black">
                 Frameworks / Libraries:
               </span>
-              Laravel, TailwindCSS, Livewire, Astro, React, Vue, Vite, Rails,
+              Laravel, TailwindCSS, Livewire, React, Vue, Vite, Rails,
               Websockets, Express, Node, jQuery
             </li>
             <li>
