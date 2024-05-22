@@ -15,33 +15,33 @@ export default function Skills() {
         <div>
           <ul>
             <li>
-              <span className="font-semibold text-zinc-100 print:text-black">
+              <span className="font-semibold text-zinc-100 print:text-black mr-2">
                 Languages:
               </span>
               PHP, JavaScript, HTML, CSS, JSON, YAML, TOML, SQL, Ruby
             </li>
             <li>
-              <span className="font-semibold text-zinc-100 print:text-black">
+              <span className="font-semibold mr-2 text-zinc-100 print:text-black">
                 Frameworks / Libraries:
               </span>
               Laravel, TailwindCSS, Livewire, React, Vue, Vite, Rails,
               Websockets, Express, Node, jQuery
             </li>
             <li>
-              <span className="font-semibold text-zinc-100 print:text-black">
+              <span className="font-semibold mr-2 text-zinc-100 print:text-black">
                 Testing / Static Analysis:
               </span>
               Pest, PHPUnit, PHPstan, SonarQube / SonarCloud, Rspec, Cypress,
               Jest, Mocha, Chai
             </li>
             <li>
-              <span className="font-semibold text-zinc-100 print:text-black">
+              <span className="font-semibold mr-2 text-zinc-100 print:text-black">
                 Databases:
               </span>
               MySQL / MariaDB, PostgreSQL, Redis
             </li>
             <li>
-              <span className="font-semibold text-zinc-100 print:text-black">
+              <span className="font-semibold mr-2 text-zinc-100 print:text-black">
                 CI/CD:
               </span>
               GitHub Actions, Azure DevOps / Azure Pipelines, Terraform, Gitlab

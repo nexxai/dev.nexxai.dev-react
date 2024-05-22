@@ -7,6 +7,7 @@ Company.propTypes = {
   industry: PropTypes.string.isRequired,
   keyDeliverable: PropTypes.string.isRequired,
   responsibilities: PropTypes.array.isRequired,
+  className: PropTypes.string,
 };
 
 export default function Company({
@@ -16,9 +17,10 @@ export default function Company({
   industry,
   keyDeliverable,
   responsibilities,
+  className,
 }) {
   return (
-    <div>
+    <div className={className}>
       <div className="flex justify-between mb-1 font-sans text-xl">
         <h4 className="font-semibold">{name}</h4>
         <span className="block">{duration}</span>

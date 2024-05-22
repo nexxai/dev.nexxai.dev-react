@@ -1,6 +1,6 @@
 export default function Education() {
   return (
-    <div className="mt-8 text-zinc-300 group">
+    <div className="mt-8 text-zinc-300 group print:pt-8">
       <div className="relative mb-2 text-2xl font-semibold font-heading">
         <div className="absolute bottom-0 h-2 px-2 -ml-2 text-transparent transition opacity-60 bg-gradient-to-r from-yellow-600 to-red-600 group-hover:transition group-hover:opacity-100 rotate-1">
           Education
@@ -39,7 +39,6 @@ export default function Education() {
         <div>
           <div className="flex justify-between mb-1 font-sans text-xl">
             <h4 className="font-semibold">Laracasts</h4>
-            <span className="block">Sept 2023</span>
           </div>
           <div className="flex justify-between">
             <h5 className="text-lg">Laravel Architect</h5>

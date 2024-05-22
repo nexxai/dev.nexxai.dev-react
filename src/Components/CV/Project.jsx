@@ -6,6 +6,7 @@ Project.propTypes = {
   description: PropTypes.string.isRequired,
   techstack: PropTypes.string.isRequired,
   integrations: PropTypes.string,
+  className: PropTypes.string,
 };
 export default function Project({
   name,
@@ -13,9 +14,10 @@ export default function Project({
   description,
   techstack,
   integrations,
+  className,
 }) {
   return (
-    <div>
+    <div className={className}>
       <div className="flex justify-between mb-1 font-sans text-xl">
         <h4 className="font-semibold group">
           <a

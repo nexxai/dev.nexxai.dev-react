@@ -32,11 +32,11 @@ export default function Employment() {
           industry="Travel / leisure"
           keyDeliverable="Assumed responsibility for and delivered JSON API to validate and accept COVID passport (SMART Health Card) within the flight booking system (Navitaire), allowing vaccinated travelers to enter Canada"
           responsibilities={[
-            "Architected and guided development of Apple Pass boarding pass integration with booking system",
             "Wrote PowerShell scripts to automate the generation of APPR reports as required by the airline",
             "Oversaw all developer, infrastructure and business intelligence teams",
             "Reported directly to senior leadership, ensuring all development goals were on track, and infrastructure was available and ready for the business",
           ]}
+          className="print:pt-24"
         />
 
         <Company
@@ -50,6 +50,21 @@ export default function Employment() {
             "Built all customer deployment pipelines in Azure DevOps/YAML and PowerShell",
             "Created the team from the ground up, encouraging an open communication style and blameless feedback",
             "Responsible for 5 junior and intermediate DevOps engineers",
+          ]}
+        />
+
+        <Company
+          name="Swoop Airlines"
+          duration="Nov 2018 - Mar 2020"
+          title="Solution Architect / Senior Cloud Engineer"
+          industry="Travel / leisure"
+          keyDeliverable="Architected and guided development of Apple Pass boarding pass integration with booking system"
+          responsibilities={[
+            "Introduced Terraform to the team; built module library from scratch",
+            "Architected and implemented multi-region web services",
+            "Built 'attack dashboard' to visualize incoming network attacks in near-real time using data from our CDN partner, Google BigQuery + Google Maps",
+            "Maintained and supported the metapartner API Gateway",
+            "Mentored intermediate and junior teammates, and provided guidance on cloud best practices to all technical teams",
           ]}
         />
       </div>
