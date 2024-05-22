@@ -19,8 +19,24 @@ export default function Projects() {
               </div>
             </ColorSwapper.Block>
 
+            <ColorSwapper.Block activeClass="w-full bg-purple-800">
+              <div className="h-72"></div>
+            </ColorSwapper.Block>
+
             <ColorSwapper.Block activeClass="w-full bg-purple-600">
-              <div className="h-64"></div>
+              <div className="flex flex-col items-end justify-center px-16 py-16 mb-16 space-y-8 bg-purple-800 lg:py-24 min-h-96 rounded-xl text-zinc-200">
+                <a
+                  href="https://fitcheck.me"
+                  target="_blank"
+                  className="flex items-end space-x-4 group font-nav text-3xl md:text-4xl lg:text-5xl font-semibold"
+                >
+                  FitCheck
+                </a>
+                <div className="text-lg font-medium text-right [text-wrap:balance] md:text-xl lg:text-2xl font-heading">
+                  Can't decide on what to wear to a big event? Let the internet
+                  vote on your top two outfits!
+                </div>
+              </div>
             </ColorSwapper.Block>
 
             <ColorSwapper.Block activeClass="w-full bg-white">
