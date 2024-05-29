@@ -1,7 +1,10 @@
 export default function PrintOnly() {
   return (
     <div className="justify-center hidden w-full text-blue-700 print:flex font-heading">
-      <a className="flex space-x-2" href="https://dev.nexxai.dev/cv">
+      <a
+        className="flex space-x-2 print:-py-2"
+        href="https://dev.nexxai.dev/cv"
+      >
         <span className="block">Online version</span>
         <svg
           xmlns="http://www.w3.org/2000/svg"

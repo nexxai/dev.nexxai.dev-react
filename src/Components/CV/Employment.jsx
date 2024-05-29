@@ -36,7 +36,7 @@ export default function Employment() {
             "Oversaw all developer, infrastructure and business intelligence teams",
             "Reported directly to senior leadership, ensuring all development goals were on track, and infrastructure was available and ready for the business",
           ]}
-          className="print:pt-24"
+          className="print:pt-12"
         />
 
         <Company
