@@ -24,7 +24,7 @@ export default function Projects() {
             </ColorSwapper.Block>
 
             <ColorSwapper.Block activeClass="w-full bg-purple-800">
-              <div className="flex flex-col justify-center px-16 py-16 mb-16 space-y-8 bg-neutral-800 lg:py-24 min-h-96 rounded-xl text-zinc-200">
+              <div className="flex flex-col justify-center px-16 py-16 mb-16 space-y-8 bg-neutral-900 lg:py-24 min-h-96 rounded-xl text-zinc-200">
                 <a
                   href="https://flashbook.co"
                   target="_blank"
