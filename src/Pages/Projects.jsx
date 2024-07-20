@@ -19,19 +19,74 @@ export default function Projects() {
               </div>
             </ColorSwapper.Block>
 
-            <ColorSwapper.Block activeClass="w-full bg-purple-800">
+            <ColorSwapper.Block activeClass="w-full bg-neutral-900">
               <div className="h-72"></div>
+            </ColorSwapper.Block>
+
+            <ColorSwapper.Block activeClass="w-full bg-purple-800">
+              <div className="flex flex-col justify-center px-16 py-16 mb-16 space-y-8 bg-neutral-800 lg:py-24 min-h-96 rounded-xl text-zinc-200">
+                <a
+                  href="https://flashbook.co"
+                  target="_blank"
+                  className="flex items-center text-3xl font-semibold group font-nav md:text-4xl lg:text-5xl text-gold"
+                >
+                  <img
+                    src="/images/flashbook.png"
+                    className="w-2/3"
+                    alt="Flashbook logo"
+                  />
+                  <span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth="1.5"
+                      stroke="currentColor"
+                      className="hidden w-6 h-6 group-hover:inline group-hover:animate-pulse"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244"
+                      />
+                    </svg>
+                  </span>
+                </a>
+                <div className="text-lg font-medium [text-wrap:balance] md:text-xl lg:text-2xl font-heading">
+                  The art gallery for tattoo artists and tattoo enthusiasts to
+                  find their next project
+                </div>
+              </div>
             </ColorSwapper.Block>
 
             <ColorSwapper.Block activeClass="w-full bg-purple-600">
               <div className="flex flex-col items-end justify-center px-16 py-16 mb-16 space-y-8 bg-purple-800 lg:py-24 min-h-96 rounded-xl text-zinc-200">
-                <a
-                  href="https://fitcheck.me"
-                  target="_blank"
-                  className="flex items-end space-x-4 group font-nav text-3xl md:text-4xl lg:text-5xl font-semibold"
-                >
-                  FitCheck
-                </a>
+                <div>
+                  <a
+                    href="https://fitcheck.me"
+                    target="_blank"
+                    className="flex items-end space-x-4 text-3xl font-semibold group font-nav md:text-4xl lg:text-5xl"
+                  >
+                    <span>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth="1.5"
+                        stroke="currentColor"
+                        className="hidden w-6 h-6 group-hover:inline group-hover:animate-pulse"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244"
+                        />
+                      </svg>
+                    </span>
+                    <span className="ml-2">FitCheck</span>
+                  </a>
+                </div>
+
                 <div className="text-lg font-medium text-right [text-wrap:balance] md:text-xl lg:text-2xl font-heading">
                   Can't decide on what to wear to a big event? Let the internet
                   vote on your top two outfits!
