@@ -38,7 +38,7 @@ export default function Skills() {
               <span className="font-semibold mr-2 text-zinc-100 print:text-black">
                 Databases:
               </span>
-              MySQL / MariaDB, PostgreSQL, Redis
+              MySQL / MariaDB, Sqlite, PostgreSQL, Redis
             </li>
             <li>
               <span className="font-semibold mr-2 text-zinc-100 print:text-black">

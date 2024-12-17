@@ -15,9 +15,9 @@ export default function Projects() {
 
       <div className="space-y-4 print:text-sm print:text-black">
         <Project
-          name="FitCheck"
-          href="https://fitcheck.me"
-          description="FitCheck is a platform for users to post two outfits and have the internet vote on which one looks better on them."
+          name="Flashbook"
+          href="https://flashbook.co"
+          description="Flashbook is a site for tattoo artists to share their portfolio and for tattoo clients to find their next artist."
           techstack="Laravel, React, Inertia, TailwindCSS, MySQL"
         />
 
