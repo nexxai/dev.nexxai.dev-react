@@ -27,29 +27,14 @@ export default function Projects() {
           href="https://stubsquad.com"
           description="StubSquad is a SaaS product allowing sports season ticket groups to draft the games they want most."
           techstack="Laravel, Livewire, TailwindCSS, MySQL"
-          integrations="Various JSON APIs for season schedule ingestion"
+          integrations="Various JSON APIs for league, team, and schedule ingestion"
         />
 
         <Project
-          name="ComeEat"
-          href="https://comeeat.io"
-          description="ComeEat is Tinder meets OpenTable. Create an experience, match with someone looking for the same things as you, and meet someone new!"
-          techstack="React, TailwindCSS, Rails, ActionCable / Web Sockets"
-          integrations="Google Places API, Google Maps API, Google Geocoder API"
-        />
-
-        <Project
-          name="PhotoLabs"
-          href="https://github.com/nexxai/photolabs"
-          description="PhotoLabs is a React-based single-page application (SPA) that allows users to view photos in different contexts."
-          techstack="React, Express, Node"
-        />
-
-        <Project
-          name="QuizMe"
-          href="https://quiz-me.nexxai.dev"
-          description="Users can create, take, and share quizzes with their friends"
-          techstack="Express, Node, jQuery"
+          name="Fitcheck"
+          href="https://fitcheck.co"
+          description="Have the community decide what you're going to wear out."
+          techstack="Laravel, React, Inertia, TailwindCSS, MySQL"
         />
 
         <Project
