@@ -36,7 +36,6 @@ export default function Employment() {
             "Oversaw all developer, infrastructure and business intelligence teams",
             "Reported directly to senior leadership, ensuring all development goals were on track, and infrastructure was available and ready for the business",
           ]}
-          className="print:pt-12"
         />
 
         <Company
@@ -51,6 +50,7 @@ export default function Employment() {
             "Created the team from the ground up, encouraging an open communication style and blameless feedback",
             "Responsible for 5 junior and intermediate DevOps engineers",
           ]}
+          className="print:pt-8"
         />
 
         <Company
