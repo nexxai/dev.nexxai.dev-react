@@ -19,8 +19,48 @@ export default function Projects() {
               </div>
             </ColorSwapper.Block>
 
-            <ColorSwapper.Block activeClass="w-full bg-neutral-900">
+            <ColorSwapper.Block activeClass="w-full bg-sky-700">
               <div className="h-72"></div>
+            </ColorSwapper.Block>
+
+            <ColorSwapper.Block activeClass="w-full bg-neutral-900">
+              <div className="flex items-end flex-col justify-center px-16 py-16 mb-16 space-y-8 bg-sky-700 lg:py-24 min-h-96 rounded-xl text-zinc-200">
+                <a
+                  href="https://ipmswinnipeg.ca"
+                  target="_blank"
+                  className="flex items-center text-3xl font-extrabold group font-ipms md:text-4xl lg:text-5xl bg-gradient-to-b from-white/50 to-white bg-clip-text text-transparent"
+                >
+                  <span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth="1.5"
+                      stroke="currentColor"
+                      className="hidden w-6 h-6 group-hover:block group-hover:animate-pulse text-white"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244"
+                      />
+                    </svg>
+                  </span>
+                  <img
+                    src="/images/ipms.png"
+                    className="mx-8 h-24"
+                    alt="IPMS Winnipeg logo"
+                  />
+                  IPMS Winnipeg
+                </a>
+                <div className="text-lg font-medium [text-wrap:balance] md:text-xl lg:text-2xl font-heading text-right">
+                  A fully custom CMS for IPMS Winnipeg to manage their
+                  membership and their respective dues, schedule meetings, and
+                  operate contests. The membership can enter contests from the
+                  members-only section, and then completed contests can be
+                  adjudicated, all from a single dashboard.
+                </div>
+              </div>
             </ColorSwapper.Block>
 
             <ColorSwapper.Block activeClass="w-full bg-purple-800">

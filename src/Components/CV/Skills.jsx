@@ -31,8 +31,8 @@ export default function Skills() {
               <span className="font-semibold mr-2 text-zinc-100 print:text-black">
                 Testing / Static Analysis:
               </span>
-              Pest, PHPUnit, PHPstan, SonarQube / SonarCloud, Rspec, Cypress,
-              Jest, Mocha, Chai
+              Pest, PHPUnit, PHPstan, SonarQube / SonarCloud, Rspec, Playwright,
+              Cypress, Jest, Mocha, Chai
             </li>
             <li>
               <span className="font-semibold mr-2 text-zinc-100 print:text-black">
@@ -46,6 +46,13 @@ export default function Skills() {
               </span>
               GitHub Actions, Azure DevOps / Azure Pipelines, Terraform, Gitlab
               CI, Cloudflare, Postman
+            </li>
+            <li>
+              <span className="font-semibold mr-2 text-zinc-100 print:text-black">
+                Clouds:
+              </span>
+              AWS (previously certified), Azure (previously certified), Google
+              Cloud, Oracle Cloud, DigitalOcean, Vercel, Netlify
             </li>
           </ul>
         </div>

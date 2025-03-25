@@ -18,6 +18,7 @@ export default {
         sans: ["Mona Sans", ...defaultTheme.fontFamily.sans],
         nav: ["Poppins", ...defaultTheme.fontFamily.sans],
         fv: ["Josefin Sans", ...defaultTheme.fontFamily.sans],
+        ipms: ["Inter Sans", ...defaultTheme.fontFamily.sans],
         lgtv: ["Space Grotesk", ...defaultTheme.fontFamily.sans],
       },
       textShadow: {

@@ -15,6 +15,14 @@ export default function Projects() {
 
       <div className="space-y-4 print:text-sm print:text-black">
         <Project
+          name="IPMS Winnipeg"
+          href="https://ipmswinnipeg.ca"
+          description="A fully custom CMS for IPMS Winnipeg to manage their membership and their respective dues, schedule meetings, and operate contests. The membership can enter contests from the members-only section, and then completed contests can be adjudicated, all from a single dashboard."
+          techstack="Laravel, FilamentPHP, React, Inertia, TailwindCSS, Sqlite3"
+          integrations="AWS S3 for contest entry photos and automatic database backups"
+        />
+
+        <Project
           name="Flashbook"
           href="https://flashbook.co"
           description="Flashbook is a site for tattoo artists to share their portfolio and for tattoo clients to find their next artist."
