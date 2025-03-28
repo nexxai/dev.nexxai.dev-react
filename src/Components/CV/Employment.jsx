@@ -50,7 +50,6 @@ export default function Employment() {
             "Created the team from the ground up, encouraging an open communication style and blameless feedback",
             "Responsible for 5 junior and intermediate DevOps engineers",
           ]}
-          className="print:pt-8"
         />
 
         <Company

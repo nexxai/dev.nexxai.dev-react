@@ -15,3 +15,10 @@ span.notObviousClassName {
   unicode-bidi: bidi-override;
   direction: rtl;
 }
+
+@media print {
+  .pagebreak {
+    page-break-before: always;
+    clear: both;
+  }
+}

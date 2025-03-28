@@ -52,7 +52,7 @@ export default function Skills() {
                 Clouds:
               </span>
               AWS (previously certified), Azure (previously certified), Google
-              Cloud, Oracle Cloud, DigitalOcean, Vercel, Netlify
+              Cloud, Oracle Cloud, Alibaba Cloud, DigitalOcean, Vercel, Netlify
             </li>
           </ul>
         </div>

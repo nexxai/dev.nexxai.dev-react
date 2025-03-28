@@ -2,7 +2,7 @@ import Project from "./Project";
 
 export default function Projects() {
   return (
-    <div className="mt-8 text-zinc-300 group ">
+    <div className="mt-8 text-zinc-300 group pagebreak">
       <div className="relative mb-2 text-2xl font-semibold font-heading">
         <div className="absolute bottom-0 h-2 px-2 -ml-2 text-transparent transition opacity-60 bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 group-hover:transition group-hover:opacity-100 rotate-1">
           Projects
@@ -30,7 +30,6 @@ export default function Projects() {
         />
 
         <Project
-          className="print:pt-12"
           name="StubSquad"
           href="https://stubsquad.com"
           description="StubSquad is a SaaS product allowing sports season ticket groups to draft the games they want most."
