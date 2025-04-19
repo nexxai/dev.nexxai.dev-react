@@ -17,7 +17,7 @@ export default function Projects() {
         <Project
           name="IPMS Winnipeg"
           href="https://ipmswinnipeg.ca"
-          description="A fully custom CMS for IPMS Winnipeg to manage their membership and their respective dues, schedule meetings, and operate contests. The membership can enter contests from the members-only section, and then completed contests can be adjudicated, all from a single dashboard."
+          description="A fully custom CMS for IPMS Winnipeg, communicating important meeting information to their membership and administering their quarterly contests"
           techstack="Laravel, FilamentPHP, React, Inertia, TailwindCSS, Sqlite3"
           integrations="AWS S3 for contest entry photos and automatic database backups"
         />
