@@ -28,7 +28,7 @@ export default function Projects() {
                 <a
                   href="https://ipmswinnipeg.ca"
                   target="_blank"
-                  className="flex items-center text-3xl font-extrabold group font-ipms md:text-4xl lg:text-5xl bg-gradient-to-b from-white/50 to-white bg-clip-text text-transparent"
+                  className="flex items-center flex-col sm:flex-row text-md sm:text-3xl font-extrabold group hover:cursor-pointer font-ipms md:text-4xl lg:text-5xl bg-gradient-to-b from-white/50 to-white bg-clip-text text-transparent text-right"
                 >
                   <span>
                     <svg
@@ -37,7 +37,7 @@ export default function Projects() {
                       viewBox="0 0 24 24"
                       strokeWidth="1.5"
                       stroke="currentColor"
-                      className="hidden w-6 h-6 group-hover:block group-hover:animate-pulse text-white"
+                      className="hidden w-6 h-6 group-hover:block group-hover:animate-pulse text-white mr-4"
                     >
                       <path
                         strokeLinecap="round"
@@ -48,10 +48,9 @@ export default function Projects() {
                   </span>
                   <img
                     src="/images/ipms.png"
-                    className="mx-8 h-24"
+                    className="h-16 lg:h-24"
                     alt="IPMS Winnipeg logo"
                   />
-                  IPMS Winnipeg
                 </a>
                 <div className="text-lg font-medium [text-wrap:balance] md:text-xl lg:text-2xl font-heading text-right">
                   A fully custom CMS for IPMS Winnipeg, communicating important
@@ -66,7 +65,7 @@ export default function Projects() {
                 <a
                   href="https://flashbook.co"
                   target="_blank"
-                  className="flex items-center text-3xl font-semibold group font-nav md:text-4xl lg:text-5xl text-gold"
+                  className="flex items-center text-3xl font-semibold group font-nav md:text-4xl lg:text-5xl text-gold hover:cursor-pointer"
                 >
                   <img
                     src="/images/flashbook.png"
