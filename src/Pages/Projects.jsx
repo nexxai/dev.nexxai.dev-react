@@ -54,11 +54,9 @@ export default function Projects() {
                   IPMS Winnipeg
                 </a>
                 <div className="text-lg font-medium [text-wrap:balance] md:text-xl lg:text-2xl font-heading text-right">
-                  A fully custom CMS for IPMS Winnipeg to manage their
-                  membership and their respective dues, schedule meetings, and
-                  operate contests. The membership can enter contests from the
-                  members-only section, and then completed contests can be
-                  adjudicated, all from a single dashboard.
+                  A fully custom CMS for IPMS Winnipeg, communicating important
+                  meeting information to their membership and administering
+                  their quarterly contests
                 </div>
               </div>
             </ColorSwapper.Block>
