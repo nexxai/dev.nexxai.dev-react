@@ -62,7 +62,7 @@ export default function Projects() {
 
           <ColorSwapper.Group className="relative">
             <ColorSwapper.Block activeClass="w-full">
-              <div className="flex px-8 pb-16 text-xl text-center text-zinc-300 rounded-xl [text-wrap:balance] min-h-[75vh]">
+              <div className="flex px-8 pb-16 text-2xl text-center text-zinc-300 rounded-xl [text-wrap:balance] min-h-[75vh]">
                 Below you'll find the projects I'm most proud to have worked on.
                 I've poured many, many hours of my life into these, and I hope
                 they've made the world a little bit better of a place.

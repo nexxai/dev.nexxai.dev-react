@@ -14,7 +14,7 @@ export default function Uses() {
         <p className="text-2xl">
           The tools I use every day to make myself feel productive.
         </p>
-        <p className="text-sm text-zinc-500">
+        <p className="text-sm text-zinc-500 [text-wrap:balance]">
           Actual productivity may vary based on coffee availability, general
           mood, weather, solar flares, or if Mercury is in retrograde. Please
           consult your doctor before attempting productivity as this could cause
