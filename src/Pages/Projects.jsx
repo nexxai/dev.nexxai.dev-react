@@ -72,7 +72,7 @@ export default function Projects() {
             {projects}
 
             <ColorSwapper.Block activeClass="bg-neutral-800">
-              <div className="h-[50vh]"></div>
+              <div className="h-[51vh]"></div>
             </ColorSwapper.Block>
           </ColorSwapper.Group>
         </ColorSwapper>
