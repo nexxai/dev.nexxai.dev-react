@@ -3,7 +3,7 @@ const projects = [
     name: "IPMS Winnipeg",
     href: "https://ipmswinnipeg.ca",
     description:
-      "IPMS Winnipeg needed a fully custom CMS to communicate important meeting information to their membership and administer their quarterly contests",
+      "IPMS Winnipeg needed a full website redesign and a custom CMS to communicate important meeting information to their membership and administer their quarterly contests",
     techstack: "Laravel, FilamentPHP, React, Inertia, TailwindCSS, Sqlite3",
     integrations:
       "AWS S3 for contest entry photos and automatic database backups",
