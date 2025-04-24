@@ -3,7 +3,7 @@ const streaming = {
   data: [
     {
       name: "Amaran P60x",
-      link: "https://shop.aputure.com/products/amaran-p60x",
+      link: "https://amarancreators.com/pages/amaran-p60x",
       color: "hover:bg-red-600",
     },
     {
