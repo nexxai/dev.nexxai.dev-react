@@ -8,7 +8,7 @@ const streaming = {
     },
     {
       name: "Presonus Revelator",
-      link: "https://www.presonus.com/en/misc/more/microphones/2777300202.html",
+      link: "https://intl.presonus.com/products/revelator-dynamic",
       color: "hover:bg-blue-600",
     },
     {
