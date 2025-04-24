@@ -127,9 +127,11 @@ function Block({
 
   useEffect(() => {
     const top = container.current.getBoundingClientRect().top;
+    const height = container.current.getBoundingClientRect().height;
+    const windowHeight = window.innerHeight;
     const isVisible = isInViewport(container.current);
 
-    if (isVisible && top <= 0) {
+    if (isVisible && top <= windowHeight / 2 && top + height / 2 >= 0) {
       rootContext.setActive(index);
     }
   }, [windowScroll]);

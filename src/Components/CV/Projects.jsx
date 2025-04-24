@@ -1,6 +1,19 @@
 import Project from "./Project";
+import ProjectData from "../../Data/Projects";
 
 export default function Projects() {
+  const projects = ProjectData.map((project) => {
+    return (
+      <Project
+        name={project.name}
+        href={project.href}
+        description={project.description}
+        techstack={project.techstack}
+        integrations={project.integrations}
+      />
+    );
+  });
+
   return (
     <div className="mt-8 text-zinc-300 group pagebreak">
       <div className="relative mb-2 text-2xl font-semibold font-heading">
@@ -13,45 +26,7 @@ export default function Projects() {
         <div className="relative z-20 text-transparent">Projects</div>
       </div>
 
-      <div className="space-y-4 print:text-sm print:text-black">
-        <Project
-          name="IPMS Winnipeg"
-          href="https://ipmswinnipeg.ca"
-          description="A fully custom CMS for IPMS Winnipeg, communicating important meeting information to their membership and administering their quarterly contests"
-          techstack="Laravel, FilamentPHP, React, Inertia, TailwindCSS, Sqlite3"
-          integrations="AWS S3 for contest entry photos and automatic database backups"
-        />
-
-        <Project
-          name="Flashbook"
-          href="https://flashbook.co"
-          description="Flashbook is a site for tattoo artists to share their portfolio and for tattoo clients to find their next artist."
-          techstack="Laravel, React, Inertia, TailwindCSS, MySQL"
-        />
-
-        <Project
-          name="StubSquad"
-          href="https://stubsquad.com"
-          description="StubSquad is a SaaS product allowing sports season ticket groups to draft the games they want most."
-          techstack="Laravel, Livewire, TailwindCSS, MySQL"
-          integrations="Various JSON APIs for league, team, and schedule ingestion"
-        />
-
-        <Project
-          name="Fitcheck"
-          href="https://fitcheck.co"
-          description="Have the community decide what you're going to wear out."
-          techstack="Laravel, React, Inertia, TailwindCSS, MySQL"
-        />
-
-        <Project
-          name="Fortuna Vista"
-          href="https://fortunavista.com"
-          description="A fully custom homemade photography portfolio and online shop, for displaying my photos and selling prints."
-          techstack="Laravel, Vue, MySQL"
-          integrations="PayPal Checkout"
-        />
-      </div>
+      <div className="space-y-4 print:text-sm print:text-black">{projects}</div>
     </div>
   );
 }
