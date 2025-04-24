@@ -36,7 +36,7 @@ const projects = [
     name: "Fortuna Vista",
     href: "https://fortunavista.com",
     description:
-      "A fully custom homemade photography portfolio platform I built to display my photos and sell prints.",
+      "A fully custom photography portfolio platform I built to display my photos and sell prints.",
     techstack: "Laravel, Vue, MySQL",
     integrations: "PayPal Checkout",
     logoUri: "/images/fortuna-vista.png",
